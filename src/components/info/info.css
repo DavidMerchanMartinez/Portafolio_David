@@ -1,0 +1,36 @@
+.scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: #000000 transparent; /* Cambia el color de la barra y el fondo */
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+    width: 12px;
+    margin-left: 12px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #ffffff; 
+    border-radius: 8px;
+   
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+
+.contenedor{
+    background: radial-gradient(circle at center, #007286, #05271f); 
+    padding: 10px 50px 10px 50px;
+    border-radius: 16px;
+}
+
+.efecto{
+    transform: scale(1);
+    transition: 1s;
+}
+
+
+
+
+
+
