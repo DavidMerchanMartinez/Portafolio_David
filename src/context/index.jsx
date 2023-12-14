@@ -46,7 +46,15 @@ export const ContextoProvider = ({children}) => {
      const reiniciarEfecto = () => {
             barraCerrado();
             setEfectoTimer(null);
-     };
+     }
+
+     const funcionProyecto = () =>{
+                proyectosAbierto()
+                infoCerrada()
+                hobbysCerrados()
+                barraCerrado()
+     }
+    
  
      useEffect(() => {
          if (efectoBarra) {
@@ -110,7 +118,8 @@ export const ContextoProvider = ({children}) => {
             barraAbierto,
             barraCerrado,
             efectoBarra,
-            setEfectoBarra
+            setEfectoBarra,
+            funcionProyecto
         }}>
             {children}
         </Contexto.Provider>

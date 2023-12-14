@@ -9,8 +9,8 @@ const Proyectos = () => {
     return(
         <div className=" overflow-hidden">
         <div className={`scrollbar-custom 
-            m-6 w-[46rem] flex flex-col overflow-y-scroll overflow-hidden scale-50
-            ${contexto.efectoProyecto? 'scale-100 duration-1000' : ''}`}
+            m-6 w-[46rem] flex flex-col overflow-y-scroll overflow-hidden 
+            ${contexto.efectoProyecto? 'scale-100 duration-1000' : 'scale-50'}`}
             >
             <div className=" flex flex-col">
                 <h1 className="text-3xl font-bold text-center mb-6 text-white">Proyectos</h1>
@@ -30,10 +30,10 @@ const Proyectos = () => {
                 </div>
                 <div className="contenedor bg-none" >
                     <h1 className="text-white text-2xl font-bold tracking-wide m-4 text-center">Ecommerce</h1>
-                    <h1 className="text-white text-base mb-4 text-center">blablabla</h1>
+                    <h1 className="text-white text-base mb-4 text-justify">Se realizo un Ecommerce en react con vite y tailwind en donde se puede navegar entre distintos menus, realizar compras y ver estas mismas tanto de forma individual como grupal. </h1>
                     <a href="https://dynamic-david-tienda.netlify.app/">
                         <img 
-                        src="src\img\imagen-proyecto1.PNG" 
+                        src="src\img\imagen-proyecto2.PNG" 
                         alt="imagen" 
                         className=" rounded-lg mb-3"
                         />

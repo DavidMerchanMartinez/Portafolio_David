@@ -32,16 +32,14 @@ const Navbar = () => {
                 contexto.proyectosCerrados()
                 contexto.hobbysCerrados()
                 contexto.barraCerrado()
+               
             }}
             />
 
             <BiSolidBriefcase 
             className={`h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""}`}
             onClick={() => {
-                contexto.proyectosAbierto()
-                contexto.infoCerrada()
-                contexto.hobbysCerrados()
-                contexto.barraCerrado()
+                contexto.funcionProyecto() 
             }}
             />
 

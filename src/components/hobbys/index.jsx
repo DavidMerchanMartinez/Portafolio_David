@@ -8,8 +8,8 @@ const contexto = useContext(Contexto);
     return(
         <div className=" overflow-hidden">
             <div className={`scrollbar-custom 
-                m-6 w-[46rem] flex flex-col overflow-y-scroll overflow-hidden translate-x-[45rem]
-                ${contexto.efectoHobbys ? 'translate-x-[0rem]  duration-1000' : ''}`}
+                m-6 w-[46rem] flex flex-col overflow-y-scroll overflow-hidden 
+                ${contexto.efectoHobbys ? 'translate-x-[0rem]  duration-1000' : 'translate-x-[45rem]'}`}
                 >
                 <div className=" flex flex-col">
                     <h1 className="text-3xl font-bold text-center mb-6 text-white">Hobbys</h1>

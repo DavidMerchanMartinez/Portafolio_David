@@ -12,8 +12,10 @@ import { Contexto } from "../../context";
 
 
 
+
 const Info = () => {
     const contexto = useContext(Contexto);
+ 
 
     return(
         <div className={`scrollbar-custom 
@@ -22,7 +24,12 @@ const Info = () => {
             >
             <div className=" flex flex-col">
                 <h1 className="text-3xl font-bold text-center mb-6 text-white">Acerca De Mi</h1>
-                <span className=" text-cyan-100 mx-5 font-serif text-lg leading-7 text-justify mb-4">Como programador junior, soy alguien apasionado por la tecnología y en constante aprendizaje. Desde la universidad he logrado aprender sobre la trabajo en equipo, programación y algunos de sus lenguajes, por mi cuenta he estudiado y realizado diversos proyectos para ampliar mis conocimientos, no obstante estoy emocionado por mejorar aun mas mis habilidades y conocimientos en el campo. Aunque todavía estoy en una etapa de desarrollo, me destaco por mi curiosidad y capacidad para resolver problemas. Estoy dispuesto a asumir nuevos desafíos y aprender de las adversidades para mejorar constantemente.</span>
+                <span className=" text-white mx-5 font-serif text-lg leading-7 text-justify mb-4">Como programador junior, soy alguien apasionado por la tecnología y en constante aprendizaje. Desde la universidad he logrado aprender sobre la trabajo en equipo, programación y algunos de sus lenguajes, por mi cuenta he estudiado y realizado diversos proyectos para ampliar mis conocimientos, no obstante estoy emocionado por mejorar aun mas mis habilidades y conocimientos en el campo. Aunque todavía estoy en una etapa de desarrollo, me destaco por mi curiosidad y capacidad para resolver problemas. Estoy dispuesto a asumir nuevos desafíos y aprender de las adversidades para mejorar constantemente. 
+                <button className=" bg-white text-teal-950 rounded-lg p-1 ml-3 font-serif text-lg"
+                onClick={()=>{
+                    contexto.funcionProyecto() 
+                }}
+                >Proyectos</button></span>
             </div>
 
             <div className="  grid  grid-cols-2 justify-items-center mt-5">
