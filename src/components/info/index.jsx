@@ -18,7 +18,7 @@ const Info = () => {
     return(
         <div className={`scrollbar-custom 
             m-6 w-[46rem] flex flex-col overflow-y-scroll overflow-hidden 
-            ${contexto.mostrarInfo ? 'efecto' : 'scale-50'}`}
+            ${contexto.mostrarEfectoInfo ? 'efecto' : ''}`}
             >
             <div className=" flex flex-col">
                 <h1 className="text-3xl font-bold text-center mb-6 text-white">Acerca De Mi</h1>

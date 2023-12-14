@@ -1,6 +1,6 @@
 .scrollbar-custom {
     scrollbar-width: thin;
-    scrollbar-color: #000000 transparent; /* Cambia el color de la barra y el fondo */
+    scrollbar-color: #000000 transparent;
 }
 
 .scrollbar-custom::-webkit-scrollbar {
@@ -24,11 +24,21 @@
     border-radius: 16px;
 }
 
+
 .efecto{
-    transform: scale(1);
-    transition: 1s;
+    animation: animacion 2s;
 }
 
+
+
+@keyframes animacion{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
 
