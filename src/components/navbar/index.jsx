@@ -15,18 +15,25 @@ const Navbar = () => {
 
     
     return(
-        <div className="grid h-full w-16 bg-teal-950 text-white justify-items-center py-4 content-between rounded-3xl  overflow-hidden">
+        <div className="
+                       grid h-[100%] w-[5%] bg-teal-950 text-white justify-items-center py-4 content-between rounded-3xl  overflow-hidden
+                       celular:flex celular:w-[100%] celular:h-[5%] celular:items-center celular:justify-between celular:px-6 celular:mt-3
+                       celular
+                       "> 
+            
+                          
+           
             <TiThMenu 
-            className="h-8 w-8 cursor-pointer hover:scale-125"
+            className="h-8 w-8 cursor-pointer hover:scale-125 "
             onClick={() => {
                 contexto.barraAbierto()
             }
             }
             />
 
-            <div >
+            <div className="celular:flex "  >
             <MdAccountCircle 
-            className={`h-8 w-8 hover:scale-125 cursor-pointer ${contexto.efectoBarra? "terremoto" : ""}`}
+            className={`h-8 w-8 hover:scale-125 cursor-pointer ${contexto.efectoBarra? "terremoto" : ""}  `}
             onClick={() =>{
                 contexto.infoAbierta()
                 contexto.proyectosCerrados()
@@ -37,14 +44,14 @@ const Navbar = () => {
             />
 
             <BiSolidBriefcase 
-            className={`h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""}`}
+            className={` h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""} celular:mt-0 celular:ml-5 `}
             onClick={() => {
                 contexto.funcionProyecto() 
             }}
             />
 
             <FaComputer 
-            className={`h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""}`}
+            className={`h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""} celular:mt-0 celular:ml-5 `}
             onClick={() => {
                 contexto.hobbysAbierto()
                 contexto.infoCerrada()

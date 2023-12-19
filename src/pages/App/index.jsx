@@ -5,8 +5,11 @@ import "./App.css"
 
 function App() {
   return (
-    <div className=" absolute h-screen w-full bg-black top-0" >
-      <div className=" bg-teal-950 my-16 mx-24 h-[40rem] flex rounded-3xl">
+    <div className=" absolute h-screen w-[100%] bg-black" >
+      <div className=" bg-teal-950 my-[5%] mx-[7%] h-[80%] w-[86%] flex rounded-3xl
+                        celular:flex-col celular:h-[95%]
+                      ">
+                        
         <Navbar/>
         <Foto/>
         <Contenedor/>

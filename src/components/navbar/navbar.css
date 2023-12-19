@@ -2,6 +2,8 @@
     animation: terremoto 0.5s infinite;
 }
 
+
+
 @keyframes terremoto {
     0% { transform: translateX(0); }
     25% { transform: translateX(-4px); }
