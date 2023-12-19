@@ -10,6 +10,7 @@ const contexto = useContext(Contexto);
             <div className={`scrollbar-custom 
                 m-6 w-[48rem] flex flex-col overflow-y-scroll overflow-hidden 
                 celular:w-[90%]
+                
                 ${contexto.efectoHobbys ? 'translate-x-[0rem]  duration-1000' : 'translate-x-[45rem]'}`}
                 >
                 <div className=" flex flex-col">
@@ -17,7 +18,9 @@ const contexto = useContext(Contexto);
                 </div>
 
                 <div className="  grid grid-cols-2 justify-items-center mt-5 
-                                 celular:flow-root  ">
+                                 celular:flow-root 
+                                 laptop:flow-root 
+                                 ">
 
                     <div className="contenedor bg-none celular:px-5" >
                         <h1 className="text-white text-2xl font-bold tracking-wide m-4 text-center">Deportes</h1>

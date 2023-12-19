@@ -17,8 +17,8 @@ const Navbar = () => {
     return(
         <div className="
                        grid h-[100%] w-[5%] bg-teal-950 text-white justify-items-center py-4 content-between rounded-3xl  overflow-hidden
-                       celular:flex celular:w-[100%] celular:h-[5%] celular:items-center celular:justify-between celular:px-6 celular:mt-3
-                       celular
+                       laptop:flex laptop:w-[100%] laptop:h-[5%] laptop:items-center laptop:justify-between laptop:px-6 laptop:mt-3
+                       
                        "> 
             
                           
@@ -31,7 +31,7 @@ const Navbar = () => {
             }
             />
 
-            <div className="celular:flex "  >
+            <div className="laptop:flex "  >
             <MdAccountCircle 
             className={`h-8 w-8 hover:scale-125 cursor-pointer ${contexto.efectoBarra? "terremoto" : ""}  `}
             onClick={() =>{
@@ -44,14 +44,14 @@ const Navbar = () => {
             />
 
             <BiSolidBriefcase 
-            className={` h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""} celular:mt-0 celular:ml-5 `}
+            className={` h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""} laptop:mt-0 laptop:ml-5 `}
             onClick={() => {
                 contexto.funcionProyecto() 
             }}
             />
 
             <FaComputer 
-            className={`h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""} celular:mt-0 celular:ml-5 `}
+            className={`h-8 w-8 hover:scale-125 cursor-pointer mt-8 ${contexto.efectoBarra? "terremoto" : ""} laptop:mt-0 laptop:ml-5 `}
             onClick={() => {
                 contexto.hobbysAbierto()
                 contexto.infoCerrada()

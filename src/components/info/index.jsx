@@ -20,6 +20,8 @@ const Info = () => {
     return(
         <div className={`scrollbar-custom 
             m-6 w-[46rem] flex flex-col overflow-y-scroll overflow-hidden 
+
+            laptop:w-[90%]
             ${contexto.mostrarEfectoInfo ? 'efecto' : ''}  `}
             >
             <div className=" flex flex-col">
@@ -32,7 +34,7 @@ const Info = () => {
                 >Proyectos</button></span>
             </div>
 
-            <div className="  grid  grid-cols-2 justify-items-center mt-5">
+            <div className="  grid  grid-cols-2 justify-items-center mt-5 celular:flex celular:flex-col">
                 <div className="contenedor" >
                     <FaGears className="h-12 w-12 text-white  "/>
                     <h1 className="text-white text-2xl font-bold tracking-wide">Habilidades</h1>
@@ -46,7 +48,7 @@ const Info = () => {
                         <li> ⚜ Ética laboral</li> 
                     </ul>
                 </div>
-                <div className="contenedor">
+                <div className="contenedor celular:mt-8">
                     <GiBrain className="h-12 w-12 text-white "/>
                     <h1 className="text-white text-2xl font-bold tracking-wide">Conocimientos</h1>
                     <ul className=" -ml-5 text-white mt-3">
@@ -60,8 +62,8 @@ const Info = () => {
                 </div>
             </div>
 
-            <div className=" grid  grid-cols-2 justify-items-center mt-9 ">
-                <div className="contenedor px-6">
+            <div className=" grid  grid-cols-2 justify-items-center mt-9 celular:flex celular:flex-col">
+                <div className="contenedor px-6 ">
                     <PiCertificateDuotone className="h-12 w-12 text-white"/>
                     <h1 className="text-white text-2xl font-bold tracking-wide">Estudios</h1>
                     <ul className=" -ml-5 text-white ml-2">
@@ -73,14 +75,14 @@ const Info = () => {
                         <li className=" indent-3"> Bachiller  </li>
                     </ul>
                 </div>
-                <div className="contenedor w-[17rem] text-justify px-6">
+                <div className="contenedor w-[17rem] text-justify px-6 celular:mt-8 celular:w-auto">
                     <BiSolidBriefcase className="h-12 w-12 text-white"/>
                     <h1 className="text-white text-2xl font-bold tracking-wide mb-3">Experiencia</h1>
                     <span className="text-white text-justify mr-5"> He realizado diversos proyectos, estos se pueden visualizar en el maletin de la barra de la izquierda o en el boton de proyectos en el apartado de "acerca de mi" </span>
                 </div>
             </div>
 
-            <div className=" grid  grid-cols-2 justify-items-center mt-9 mb-8">
+            <div className=" grid  grid-cols-2 justify-items-center mt-9 mb-8 celular:flex celular:flex-col">
                 <div className="contenedor px-6">
                     <PiCertificateDuotone className="h-12 w-12 text-white"/>
                     <h1 className="text-white text-2xl font-bold tracking-wide">Certificados</h1>
@@ -95,7 +97,7 @@ const Info = () => {
                         
                     </ul>
                 </div>
-                <div className="contenedor px-6">
+                <div className="contenedor px-6 celular:mt-8">
                     <MdContactPhone className="h-12 w-12 text-white"/>
                     <h1 className="text-white text-2xl font-bold tracking-wide">Datos Contacto</h1>
                     <ul className=" -ml-5 text-white ml-2">
