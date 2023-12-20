@@ -32,6 +32,9 @@ export const ContextoProvider = ({children}) => {
     //hobbys efectos
     const [efectoHobbys,setEfectoHobbys] = useState(false)
 
+     //error en carga de imagen
+     const [error, setError] = useState(false);
+
      //barra
      const [barra, setBarra] = useState(false)
      const barraAbierto = () => setBarra(true)
@@ -39,6 +42,8 @@ export const ContextoProvider = ({children}) => {
      
      //barra efectos
      const [efectoBarra,setEfectoBarra] = useState(false)
+
+    
 
      
      const [efectoTimer, setEfectoTimer] = useState(null);
@@ -119,7 +124,9 @@ export const ContextoProvider = ({children}) => {
             barraCerrado,
             efectoBarra,
             setEfectoBarra,
-            funcionProyecto
+            funcionProyecto,
+            error,
+            setError
         }}>
             {children}
         </Contexto.Provider>
