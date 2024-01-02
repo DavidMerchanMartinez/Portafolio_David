@@ -26,7 +26,7 @@ const Proyectos = () => {
                     
                     <a href="https://davidmerchanmartinez.github.io/maquetados-login/html/index.html">
                             <img 
-                            src="src\components\proyectos\imagen-proyecto1.png" 
+                            src="/imagen-proyecto1.png" 
                             alt="💻"
                             className=" rounded-lg mb-3 w-[100%] h-[10rem] text-9xl text-center"
                             />                
@@ -39,7 +39,7 @@ const Proyectos = () => {
                     <h1 className="text-white text-base mb-4 text-justify">Se realizo un Ecommerce en react con vite y tailwind en donde se puede navegar entre distintos menus, realizar compras y ver estas mismas tanto de forma individual como grupal. </h1>
                     <a href="https://dynamic-david-tienda.netlify.app/">
                             <img 
-                            src="src\components\proyectos\imagen-proyecto2.png" 
+                            src="/imagen-proyecto2.png" 
                             alt="🏪" 
                             className=" rounded-lg mb-3 w-[100%] h-[10rem] text-9xl text-center"
                             />   
@@ -51,7 +51,7 @@ const Proyectos = () => {
                     <h1 className="text-white text-base mb-4 text-justify">Se realizo un Buscador de gifs en react con vite y tailwind en donde se puede se pueden filtrar gifs, tiene responsive para celular y tablet. </h1>
                     <a href="https://buscador-de-gifs-07.netlify.app/">
                             <img 
-                            src="src\components\proyectos\imagen-proyecto3.png" 
+                            src="/imagen-proyecto3.png" 
                             alt="🏪" 
                             className=" rounded-lg mb-3 w-[100%] h-[10rem] text-9xl text-center"
                             />   
