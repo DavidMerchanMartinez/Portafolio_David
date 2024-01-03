@@ -9,7 +9,7 @@ const Foto = () => {
         <div 
         className="contenedor-principal relative h-[115%] w-2/5  rounded-3xl overflow-hidden -mt-9 bg-white flex justify-center laptop:hidden">
                    
-            <img className="w-full h-full" src="src\components\foto\david.jpeg" alt="imagen" />
+            <img className="w-full h-full" src="https://i.ibb.co/QPJHgPw/david-jpeg.jpg" alt="imagen" />
             <div className="absolute z-10 text-white top-[72%]  ">
                 <h1 className="font-serif text-4xl" >David Merchan</h1>
                 <h1 className="font-sans text-2xl mt-3">Desarrollador FrontEnd </h1>
