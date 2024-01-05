@@ -37,7 +37,7 @@ const Proyectos = () => {
                 <div className="contenedor bg-none laptop:px-2" >
                     <h1 className="text-white text-2xl font-bold tracking-wide m-4 text-center">Ecommerce</h1>
                     <h1 className="text-white text-base mb-4 text-justify">Se realizo un Ecommerce en react con vite y tailwind en donde se puede navegar entre distintos menus, realizar compras y ver estas mismas tanto de forma individual como grupal. </h1>
-                    <a href="https://dynamic-david-tienda.netlify.app/">
+                    <a href="https://main--dynamic-david-tienda.netlify.app/sing-out">
                             <img 
                             src="https://i.ibb.co/Q6bW6CN/imagen-proyecto2.png" 
                             alt="🏪" 
